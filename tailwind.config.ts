@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'ticket-active': {
+					DEFAULT: 'hsl(var(--ticket-active))',
+					foreground: 'hsl(var(--ticket-active-foreground))'
+				},
+				'ticket-used': {
+					DEFAULT: 'hsl(var(--ticket-used))',
+					foreground: 'hsl(var(--ticket-used-foreground))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
