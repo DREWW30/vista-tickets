@@ -49,13 +49,13 @@ const Index = () => {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="p-3 bg-white/10 backdrop-blur-sm rounded-2xl">
-              <TicketIcon className="w-8 h-8 text-white" />
+              <TicketIcon className="w-8 h-8 text-black" />
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-white">
+            <h1 className="text-4xl md:text-5xl font-bold text-black">
               Event Tickets
             </h1>
           </div>
-          <p className="text-xl text-white/80 max-w-2xl mx-auto">
+          <p className="text-xl text-black/80 max-w-2xl mx-auto">
             Manage your event tickets with style. Track used and active tickets in a beautiful, responsive interface.
           </p>
         </div>
@@ -84,12 +84,12 @@ const Index = () => {
         {filteredTickets.length === 0 && (
           <div className="text-center py-12">
             <div className="p-6 bg-white/10 backdrop-blur-sm rounded-3xl inline-block mb-4">
-              <TicketIcon className="w-12 h-12 text-white/60" />
+              <TicketIcon className="w-12 h-12 text-black/60" />
             </div>
-            <h3 className="text-2xl font-semibold text-white mb-2">
+            <h3 className="text-2xl font-semibold text-black mb-2">
               No tickets found
             </h3>
-            <p className="text-white/70">
+            <p className="text-black/70">
               Try adjusting your filter to see more tickets.
             </p>
           </div>
