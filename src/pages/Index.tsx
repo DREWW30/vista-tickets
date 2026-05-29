@@ -40,8 +40,13 @@ const Index = () => {
   }), [tickets]);
 
   return (
-    <div className="min-h-screen bg-[var(--gradient-hero)] relative">
+    <div className="min-h-screen relative">
       {/* Background decoration */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        style={{ backgroundImage: `url(${concertBg})` }}
+      />
+      <div className="absolute inset-0 bg-background/80" />
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:50px_50px]" />
       <div className="absolute inset-0 bg-gradient-to-br from-transparent via-primary/5 to-accent/10" />
       
