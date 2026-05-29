@@ -4,6 +4,7 @@ import { TicketFilter } from "@/components/TicketFilter";
 import { ticketsData } from "@/data/tickets";
 import { Ticket } from "@/types/ticket";
 import { Ticket as TicketIcon } from "lucide-react";
+import concertBg from "@/assets/concert-bg.jpg";
 
 type FilterType = "all" | "active" | "used";
 
